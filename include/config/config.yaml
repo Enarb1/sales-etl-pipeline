@@ -1,0 +1,11 @@
+aws:
+  conn_id: aws_conn_id
+  bucket_name: datawarehouse-etl-softuni
+  prefix: exam_prep/
+  folders:
+    raw_data: raw-data/
+    processed_data: processed-data/
+
+snowflake:
+  conn_id: my_snowflake_conn
+  database: SALES_DB
